@@ -6,3 +6,4 @@ numpy
 mlx-lm
 pathlib
 ollama
+openpyxl==3.0.14
