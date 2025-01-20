@@ -23,7 +23,7 @@ import json
 # Set the page configuration
 st.set_page_config(page_title="Streamlit App with Logos", layout="wide")
 # Create a layout for logos
-logo_col1, logo_col2, logo_col3, logo_col4 = st.columns(4)
+logo_col1, logo_col2, logo_col3, logo_col4, logo_col5 = st.columns(5)
 logo_width = 100  # Adjust this value as needed
 with logo_col1:
     st.image("images/udem.png", width= logo_width)
@@ -33,6 +33,8 @@ with logo_col3:
     st.image("images/solidarité.png", width= logo_width)
 with logo_col4:
     st.image("images/cresp.png", width= logo_width)
+with logo_col5:
+    st.image("images/labtns.jpg", width= logo_width)
 
 # Add logos at the top of the page
 st.markdown("### Contribution of artificial intelligece for people with disabilities")
