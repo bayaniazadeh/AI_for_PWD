@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import re
+import os
 import numpy as np
 import pandas as pd
 import pandas as pd
@@ -157,7 +158,9 @@ elif menu == "Phase 3: Data Extraction":
     def load_model(dimension):
         model_path = "mistralai/Mistral-7B-Instruct-v0.2"
         adapter_path = Path(f"Models/adapters_{dimension}")  # Convert to Path object
-    
+        # Access Token
+        hf_token = os.getenv("HF_TOKEN")  # Retrieve token from environment
+        login(token=hf_token)
     # Define LoRA configuration
         lora_config = {
         "lora_layers": 8,
