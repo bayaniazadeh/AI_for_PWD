@@ -7,3 +7,4 @@ mlx-lm
 pathlib
 ollama
 openpyxl
+huggingface_hub
