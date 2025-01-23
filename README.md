@@ -7,7 +7,7 @@
 
 ## Installation
 Clone or download the source code from the repository: 
-'''
+```
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-'''
+```
