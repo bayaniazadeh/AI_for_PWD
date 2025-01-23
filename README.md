@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 3. Run Ollama on your local machine
 
-4. Running the application - stream_test_v2.py
+4. Run the application - stream_test_v2.py
 ```
 streamlit run stream_test_v2.py
 
