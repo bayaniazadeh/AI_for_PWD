@@ -6,7 +6,7 @@
 * Displaying the number of studies categorized by country
 
 ## Installation
-****1. Clone or download the source code from the repository: 
+** **1. Clone or download the source code from the repository: 
 ```
 git clone https://github.com/bayaniazadeh/AI_for_PWD.git
 
